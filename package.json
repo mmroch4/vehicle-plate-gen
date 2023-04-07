@@ -1,0 +1,22 @@
+{
+  "name": "vehicle-plate-gen",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Miguel Rocha <https://www.miguelrocha.dev>",
+    "email": "miguelrocha.dev@gmail.com",
+    "url": "https://www.miguelrocha.dev"
+  },
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsup src",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.3"
+  }
+}
